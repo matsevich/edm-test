@@ -63,11 +63,28 @@
     .content-header
       display: flex
       justify-content: flex-start
+      align-items: center
       background: #000000
       padding: 8px 0 8px 0
       border-bottom: 1px solid #cecece
-      a
+      &:hover .locs
+        display: flex
+        padding: 3px
+      &:hover .locs-box
+        position: absolute
+        top: 0px
+        left: -5px
+      .locs 
+        margin-left: 5px 
+        color: #ffffff
+        display: none
+        font-size: 12px
+        &:hover
+          display: flex
+          color: blue
+      .logo
         margin-left: 27px
+        
     .callout
       width: 181px
       height: 110px

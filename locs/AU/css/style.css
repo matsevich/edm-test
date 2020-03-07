@@ -115,14 +115,14 @@
         .content-box__wrapper .symetry__wrapper .top-block .save {
           text-transform: uppercase;
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          font-size: 75px;
+          font-size: 43px;
           font-weight: 500;
           letter-spacing: -1.5px;
           margin: 35px 0 10px 0;
           line-height: 48px; }
         .content-box__wrapper .symetry__wrapper .top-block .text {
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          font-size: 22px;
+          font-size: 21px;
           line-height: 20px;
           margin: 12px 0 38px 0; }
       .content-box__wrapper .symetry__wrapper .price {
@@ -156,6 +156,12 @@
             cursor: pointer;
             outline: none;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+            .subtext {
+              color: #cecece75;
+              padding-top: 5px;
+              font-size: 8px;
+              line-height: 12px;
+            }
             .content-box__wrapper .symetry__wrapper .price .full button a {
               font-size: 12px;
               line-height: 16px;
@@ -319,7 +325,7 @@
   .content-box {
     max-width: 500px; }
   .content-box__wrapper .symetry__wrapper .top-block .save {
-    font-size: 50px; }
+    font-size: 33px; }
   .content-box__wrapper .symetry__wrapper .top-block .text {
     font-size: 18px; }
   .content-box__wrapper .middle-descriptions__wrapper {
@@ -372,7 +378,7 @@
     .content-box__wrapper .symetry__wrapper .top-block .perfect-symmetry {
       font-size: 18px; }
     .content-box__wrapper .symetry__wrapper .top-block .save {
-      font-size: 40px;
+      font-size: 32px;
       margin-top: 10px; }
     .content-box__wrapper .symetry__wrapper .top-block .text {
       font-size: 12px;
@@ -413,6 +419,12 @@
     .content-box__wrapper .content-bottom .bot-footer__wrapper .socials {
       margin-left: 5px;
       border: none; } }
+  .content-box__wrapper .symetry__wrapper .price .full .old-price, .content-box__wrapper .symetry__wrapper .price .upgrade .old-price {
+    font-size: 12px
+  }
+  .content-box__wrapper .symetry__wrapper .price .full .new-price, .content-box__wrapper .symetry__wrapper .price .upgrade .new-price {
+    font-size: 22px;
+  }
 
 @media screen and (max-width: 400px) {
   .conteiner .top-disclaimer, .conteiner .bottom-disclaimer__wrapper {
@@ -428,7 +440,7 @@
   .content-box__wrapper .reminder .text {
     max-width: 230px; }
   .content-box__wrapper .symetry__wrapper .top-block .save {
-    font-size: 32px; }
+    font-size: 24px; }
   .content-box__wrapper .symetry__wrapper .top-block .text {
     font-size: 10px;
     margin-bottom: 9px; } }
